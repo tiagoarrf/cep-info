@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
+  color: aliceblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(43, 98, 143);
+}
+
+.inputContainer{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+input{
+  border: 0;
+  height: 22.8px;
+  font-size: 18px;
+  width: 150px;
+  outline: none;
+  align-items: center;
+}
+
+span{
+  font-size: 15px;
+}
+
+button{
+  margin: 1px;
+  cursor: pointer;
+  border: 0;
+  height: 24.5px;
+}
+
+.mainInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon{
+  animation: animeIcon 5s;
+}
+
+@keyframes animeIcon {
+  from{
+    transform: rotateX(70deg);
+  }
+  to{
+    transform: rotateX(0deg);
+  }
+}
